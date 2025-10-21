@@ -1,0 +1,22 @@
+{
+  "url": "https://zabbix.example.com/api_jsonrpc.php",
+  "username": "Admin",
+  "password": "zabbix",
+  "ca_certificate_path": "/path/to/ca-cert.pem",
+  "export_format": "json",
+  "dashboards": [
+    {"name": "Network Overview"},
+    {"name": "Server Performance"},
+    "System Dashboard"
+  ],
+  "maps": [
+    {"name": "Network Topology"},
+    {"name": "Data Center Map"},
+    "Infrastructure Overview"
+  ],
+  "hosts": [
+    {"name": "Server01"},
+    {"name": "Router01"},
+    "Switch01"
+  ]
+}
